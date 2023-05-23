@@ -74,6 +74,8 @@ public class PlayerControl : MonoBehaviour
 
     void Update()
     {   
+
+
         ExtraJump();
         if(isOnGround)
         {

@@ -16,11 +16,12 @@ public class OpenDoor : MonoBehaviour
     {   
         if(isBossDied)
         {
-            SceneManager.LoadScene(sceneNum);
+            
             if (collider.gameObject.CompareTag("Player"))
             {
-                collider.gameObject.transform.position = new Vector3(0, 0, 0);
+                Destroy(collider.gameObject);
             }
+            SceneManager.LoadScene(sceneNum);
         }
     }
 }

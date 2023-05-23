@@ -9,7 +9,7 @@ public class HealthSystem : MonoBehaviour
     [SerializeField]
     private Slider slider;
 
-   public PlayerStatus playerStatus; // refer to player (1)
+    public PlayerStatus playerStatus; // refer to player (1)
 
     public void SetUp()
     {   
