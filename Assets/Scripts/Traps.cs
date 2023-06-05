@@ -9,7 +9,7 @@ public class Traps : MonoBehaviour
         if (collider.CompareTag("Player"))
         {
             PlayerStatus player = collider.gameObject.GetComponent<PlayerStatus>();
-            player.TakeDamage(20);
+            player.TakeDamage(5);
         }
     }
 }

@@ -36,7 +36,7 @@ public class PatrollEnemy : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player"))
         {
-            collider.gameObject.GetComponent<PlayerStatus>().TakeDamage(15);
+            collider.gameObject.GetComponent<PlayerStatus>().TakeDamage(5);
         }
     }
 }
